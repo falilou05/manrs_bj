@@ -1,0 +1,15 @@
+Organisation|CC|type|num|1|unknow|status|identification
+afrinic|BJ|asn|28683|1|20100311|allocated|F3660940
+afrinic|BJ|asn|36924|1|20160620|allocated|F36E635C
+afrinic|BJ|asn|37039|1|20100430|allocated|F361BF5B
+afrinic|BJ|asn|37090|1|20090302|allocated|F36B2F8B
+afrinic|BJ|asn|37136|1|20090826|allocated|F36F3383
+afrinic|BJ|asn|37292|1|20110225|allocated|F36BC33B
+afrinic|BJ|asn|37424|1|20191010|allocated|F3677E0A
+afrinic|BJ|asn|327818|1|20141112|allocated|F36B2F8B
+afrinic|BJ|asn|328092|1|20161027|allocated|F36776F1
+afrinic|BJ|asn|328098|1|20161109|allocated|F3677E0F
+afrinic|BJ|asn|328133|1|20170227|allocated|F36897F5
+afrinic|BJ|asn|328138|1|20170310|allocated|F36CA445
+afrinic|BJ|asn|328228|1|20170929|allocated|F36AFE01
+afrinic|BJ|asn|328653|1|20200507|allocated|F3679565
