@@ -1,5 +1,5 @@
 # manrs_bj 
-manrs_bj.py est un script python(panda) Script python(Panda), vérifiant automatiquement l'existence
+manrs_bj.py est un script python(panda), vérifiant automatiquement l'existence
 des RO(Route Object) et ROA(Route Origine Authorization) pour les Systèmes Autonomes(AS) du Bénin.
 
 #Description
