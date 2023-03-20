@@ -103,9 +103,9 @@ for i in range(0,len(prefix)):
     ###check_ro recoit le attestant de l'existence d'un RO
     check_ro=data3["data"]["origins"]
     ###check_rpki recoit le attestant de l'existence d'un ROA
-    check_rpki=data2["data"]["validating_roas"]
+    check_rpki=data2["data"]["status"]
     ###si check_rpki non NULL: Alors
-    if check_rpki:
+    if if check_rpki =='valid':
         ####la variable asn_rpki prend la valeur yes
         asn_rpki.append("yes")
     else:
