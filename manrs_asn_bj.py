@@ -24,9 +24,9 @@ def remplacer(c1,c2,ch):
         i+=1
     return ch
 #lecture du contenu du fichier asn_bj.txt et conversion en DF dans la variable asn_url
-asn_url = pd.read_csv('asn_bj.txt',sep = "|")
+asn_url = pd.read_csv('asn_bj.csv',sep = "|")
 #lecture du contenu du fichier prefix_bj.txt et conversion en DF dans la variable prefix
-prefix = pd.read_csv('prefix_bj.txt',sep = "|")
+prefix = pd.read_csv('prefix_bj.csv',sep = "|")
 #Création de la variable asn_name contenant l'url servant à l'identification du nom d'un ASN
 asn_name="https://stat.ripe.net/data/as-overview/data.json?resource=AS"
 #Création des variables rpki et rpki1 asn_name contenant l'url servant à l'identification d'un roa pour un préfixe particulier
@@ -105,7 +105,7 @@ for i in range(0,len(prefix)):
     ###check_rpki recoit le attestant de l'existence d'un ROA
     check_rpki=data2["data"]["status"]
     ###si check_rpki non NULL: Alors
-    if if check_rpki =='valid':
+    if check_rpki =='valid':
         ####la variable asn_rpki prend la valeur yes
         asn_rpki.append("yes")
     else:
