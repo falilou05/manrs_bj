@@ -12,7 +12,7 @@ from pandas import ExcelWriter
 
 
 #url = 'http://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest'
-asn_url = pd.read_csv('asn_bj.txt',sep = "|")
+asn_url = pd.read_csv('asn_bj.csv',sep = "|")
 asn_name="https://stat.ripe.net/data/as-overview/data.json?resource=AS"
 curl_ressources="https://stat.ripe.net/data/as-routing-consistency/data.json?resource=AS"
 rpki="https://stat.ripe.net/data/rpki-validation/data.json?resource="
@@ -82,8 +82,8 @@ for i in range(0,len(prefixxx)):
         asn_ro.append("no")
 prefixxx['RPKI']=asn_rpki
 prefixxx['ASN_OWNER']=asn_ro
-
-writer = ExcelWriter('manrs_new.xlsx')
+print("I am here now")
+writer = ExcelWriter('manrs_new1.xlsx')
 prefixxx.to_excel(writer,'prefix')
 asn_url.to_excel(writer,'ASN')
 writer.save()
